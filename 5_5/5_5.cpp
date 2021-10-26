@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-int depth = 1;
+int depth = 0;
 int f(int n)
 {
 	if (n % 10 > 0)
