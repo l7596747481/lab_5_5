@@ -9,7 +9,7 @@ int f(int n)
 	if (n == 0)
 		return 0;
 	else
-		return (n / 10);
+		return f(n / 10);
 }
 double S(const int p, const int q, const int i)
 {
